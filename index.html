@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Game Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎮 Website Game</h1>
+        <p>Selamat datang! Mainkan game tebak angka di bawah ini</p>
+
+        <div class="game-box">
+            <h2>Tebak Angka (1 - 10)</h2>
+            <input type="number" id="inputAngka" placeholder="Masukkan angka" min="1" max="10">
+            <button onclick="cekAngka()">Tebak</button>
+
+            <p id="hasil"></p>
+            <p id="skor">Skor: 0</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Website Game | Dibuat dengan ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
